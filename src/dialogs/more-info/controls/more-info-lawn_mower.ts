@@ -198,7 +198,7 @@ class MoreInfoLawnMower extends LitElement {
       .flex-horizontal {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
       }
     `;
   }
