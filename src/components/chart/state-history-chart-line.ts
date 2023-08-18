@@ -76,7 +76,6 @@ export class StateHistoryChartLine extends LitElement {
       changedProps.has("endTime")
     ) {
       this._chartOptions = {
-        maintainAspectRatio: false,
         parsing: false,
         animation: false,
         interaction: {
